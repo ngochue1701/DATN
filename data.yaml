@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['bottle_cap', 'cigarette', 'paper_cup', 'plastic_bag', 'plastic_bottle', 'plastic_cup', 'plastic_lid', 'wrapper']
+
+roboflow:
+  workspace: test-vv1nz
+  project: water-waste-eouzy
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/test-vv1nz/water-waste-eouzy/dataset/2
